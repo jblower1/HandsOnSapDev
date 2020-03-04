@@ -6,6 +6,7 @@
     "configurations": [
         {
             "name": "cds run",
+            
             "request": "launch",
             "type": "node", "runtimeExecutable": "npx","runtimeArgs": [ "-n" ],
             "args": [ "--","cds","run","--in-memory?" ], // the leading "--" arg ensures it works with as well as without debugging
